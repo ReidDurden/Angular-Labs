@@ -1,0 +1,21 @@
+<h1>
+  You made it to the next page!
+</h1>
+  <p>
+    So here is the data that we have for you:
+  </p>
+  <p>
+    {{userEmail}}
+  </p>
+  <p>
+    {{userID}}
+  </p>
+  <p>
+    {{userBirth}}
+  </p>
+  <p>
+    {{userAge}}
+  </p>
+  <form (submit)="logoutEvent($event)">
+    <button type="submit">Logout</button>
+  </form>
